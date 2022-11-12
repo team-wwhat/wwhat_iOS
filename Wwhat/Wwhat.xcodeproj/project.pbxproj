@@ -16,6 +16,16 @@
 		4B21429A2908A93D00FD526B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2142982908A93D00FD526B /* LaunchScreen.storyboard */; };
 		4B2142A22908AA5800FD526B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B2142A12908AA5700FD526B /* GoogleService-Info.plist */; };
 		4B2142A52908ABF100FD526B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4B2142A42908ABF100FD526B /* FirebaseAnalytics */; };
+		4B3FB539291F5B8900E9BE51 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B3FB533291F5B8800E9BE51 /* NotoSansKR-Bold.otf */; };
+		4B3FB53A291F5B8900E9BE51 /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B3FB534291F5B8800E9BE51 /* NotoSansKR-Black.otf */; };
+		4B3FB53B291F5B8900E9BE51 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B3FB535291F5B8800E9BE51 /* NotoSansKR-Medium.otf */; };
+		4B3FB53C291F5B8900E9BE51 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B3FB536291F5B8800E9BE51 /* NotoSansKR-Regular.otf */; };
+		4B3FB53D291F5B8900E9BE51 /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B3FB537291F5B8900E9BE51 /* NotoSansKR-Light.otf */; };
+		4B3FB53E291F5B8900E9BE51 /* NotoSansKR-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B3FB538291F5B8900E9BE51 /* NotoSansKR-Thin.otf */; };
+		4B3FB543291F5DA900E9BE51 /* UIColor+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FB542291F5DA900E9BE51 /* UIColor+Colors.swift */; };
+		4B3FB545291F604000E9BE51 /* UIFont+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FB544291F604000E9BE51 /* UIFont+Fonts.swift */; };
+		4B3FB548291F6AA100E9BE51 /* Date+TodayDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FB547291F6AA100E9BE51 /* Date+TodayDate.swift */; };
+		4B3FB54C291F766F00E9BE51 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FB54B291F766F00E9BE51 /* ScheduleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +37,16 @@
 		4B2142992908A93D00FD526B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B21429B2908A93D00FD526B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B2142A12908AA5700FD526B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4B3FB533291F5B8800E9BE51 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		4B3FB534291F5B8800E9BE51 /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
+		4B3FB535291F5B8800E9BE51 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		4B3FB536291F5B8800E9BE51 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		4B3FB537291F5B8900E9BE51 /* NotoSansKR-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Light.otf"; sourceTree = "<group>"; };
+		4B3FB538291F5B8900E9BE51 /* NotoSansKR-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Thin.otf"; sourceTree = "<group>"; };
+		4B3FB542291F5DA900E9BE51 /* UIColor+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
+		4B3FB544291F604000E9BE51 /* UIFont+Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Fonts.swift"; sourceTree = "<group>"; };
+		4B3FB547291F6AA100E9BE51 /* Date+TodayDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+TodayDate.swift"; sourceTree = "<group>"; };
+		4B3FB54B291F766F00E9BE51 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +84,8 @@
 		4B14A858290976EA0097E838 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4B3FB549291F762500E9BE51 /* Component */,
+				4B3FB541291F5D7A00E9BE51 /* Extention */,
 				4B14A856290975A70097E838 /* Application */,
 				4B14A859290976FE0097E838 /* Scene */,
 			);
@@ -81,6 +103,7 @@
 		4B14A85A2909776B0097E838 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4B3FB532291F5B7C00E9BE51 /* Fonts */,
 				4B2142962908A93D00FD526B /* Assets.xcassets */,
 				4B2142982908A93D00FD526B /* LaunchScreen.storyboard */,
 			);
@@ -111,6 +134,45 @@
 				4B14A857290975B70097E838 /* SupportFiles */,
 			);
 			path = Wwhat;
+			sourceTree = "<group>";
+		};
+		4B3FB532291F5B7C00E9BE51 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4B3FB534291F5B8800E9BE51 /* NotoSansKR-Black.otf */,
+				4B3FB533291F5B8800E9BE51 /* NotoSansKR-Bold.otf */,
+				4B3FB537291F5B8900E9BE51 /* NotoSansKR-Light.otf */,
+				4B3FB535291F5B8800E9BE51 /* NotoSansKR-Medium.otf */,
+				4B3FB536291F5B8800E9BE51 /* NotoSansKR-Regular.otf */,
+				4B3FB538291F5B8900E9BE51 /* NotoSansKR-Thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4B3FB541291F5D7A00E9BE51 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				4B3FB542291F5DA900E9BE51 /* UIColor+Colors.swift */,
+				4B3FB544291F604000E9BE51 /* UIFont+Fonts.swift */,
+				4B3FB547291F6AA100E9BE51 /* Date+TodayDate.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		4B3FB549291F762500E9BE51 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				4B3FB54A291F762E00E9BE51 /* ScheduleTableCell */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		4B3FB54A291F762E00E9BE51 /* ScheduleTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				4B3FB54B291F766F00E9BE51 /* ScheduleTableViewCell.swift */,
+			);
+			path = ScheduleTableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,9 +243,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B3FB53E291F5B8900E9BE51 /* NotoSansKR-Thin.otf in Resources */,
+				4B3FB53B291F5B8900E9BE51 /* NotoSansKR-Medium.otf in Resources */,
 				4B21429A2908A93D00FD526B /* LaunchScreen.storyboard in Resources */,
+				4B3FB53D291F5B8900E9BE51 /* NotoSansKR-Light.otf in Resources */,
 				4B2142A22908AA5800FD526B /* GoogleService-Info.plist in Resources */,
+				4B3FB539291F5B8900E9BE51 /* NotoSansKR-Bold.otf in Resources */,
+				4B3FB53A291F5B8900E9BE51 /* NotoSansKR-Black.otf in Resources */,
 				4B2142972908A93D00FD526B /* Assets.xcassets in Resources */,
+				4B3FB53C291F5B8900E9BE51 /* NotoSansKR-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,8 +263,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B21428E2908A93C00FD526B /* AppDelegate.swift in Sources */,
+				4B3FB54C291F766F00E9BE51 /* ScheduleTableViewCell.swift in Sources */,
+				4B3FB543291F5DA900E9BE51 /* UIColor+Colors.swift in Sources */,
 				4B2142902908A93C00FD526B /* SceneDelegate.swift in Sources */,
+				4B3FB545291F604000E9BE51 /* UIFont+Fonts.swift in Sources */,
 				4B14A85C290977D60097E838 /* ScheduleViewController.swift in Sources */,
+				4B3FB548291F6AA100E9BE51 /* Date+TodayDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
