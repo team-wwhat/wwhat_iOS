@@ -15,7 +15,6 @@
 		4B2142972908A93D00FD526B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2142962908A93D00FD526B /* Assets.xcassets */; };
 		4B21429A2908A93D00FD526B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2142982908A93D00FD526B /* LaunchScreen.storyboard */; };
 		4B2142A22908AA5800FD526B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B2142A12908AA5700FD526B /* GoogleService-Info.plist */; };
-		4B2142A52908ABF100FD526B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4B2142A42908ABF100FD526B /* FirebaseAnalytics */; };
 		4B3FB539291F5B8900E9BE51 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B3FB533291F5B8800E9BE51 /* NotoSansKR-Bold.otf */; };
 		4B3FB53A291F5B8900E9BE51 /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B3FB534291F5B8800E9BE51 /* NotoSansKR-Black.otf */; };
 		4B3FB53B291F5B8900E9BE51 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B3FB535291F5B8800E9BE51 /* NotoSansKR-Medium.otf */; };
@@ -26,6 +25,14 @@
 		4B3FB545291F604000E9BE51 /* UIFont+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FB544291F604000E9BE51 /* UIFont+Fonts.swift */; };
 		4B3FB548291F6AA100E9BE51 /* Date+TodayDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FB547291F6AA100E9BE51 /* Date+TodayDate.swift */; };
 		4B3FB54C291F766F00E9BE51 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FB54B291F766F00E9BE51 /* ScheduleTableViewCell.swift */; };
+		4B3FB550291F966500E9BE51 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 4B3FB54F291F966500E9BE51 /* RxCocoa */; };
+		4B3FB552291F966500E9BE51 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4B3FB551291F966500E9BE51 /* RxSwift */; };
+		4B3FB58C291FF0C100E9BE51 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4B3FB58B291FF0C100E9BE51 /* FirebaseAnalyticsSwift */; };
+		4B3FB58E291FF0C100E9BE51 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4B3FB58D291FF0C100E9BE51 /* FirebaseFirestoreSwift */; };
+		4B3FB590291FF0C100E9BE51 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4B3FB58F291FF0C100E9BE51 /* FirebaseStorage */; };
+		4B3FB5962920B6A600E9BE51 /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FB5952920B6A600E9BE51 /* ScheduleModel.swift */; };
+		4B3FB5992920BE6F00E9BE51 /* DateEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FB5982920BE6F00E9BE51 /* DateEnum.swift */; };
+		4B3FB59C2920C00600E9BE51 /* Date+DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FB59B2920C00600E9BE51 /* Date+DayOfWeek.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +54,9 @@
 		4B3FB544291F604000E9BE51 /* UIFont+Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Fonts.swift"; sourceTree = "<group>"; };
 		4B3FB547291F6AA100E9BE51 /* Date+TodayDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+TodayDate.swift"; sourceTree = "<group>"; };
 		4B3FB54B291F766F00E9BE51 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		4B3FB5952920B6A600E9BE51 /* ScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
+		4B3FB5982920BE6F00E9BE51 /* DateEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateEnum.swift; sourceTree = "<group>"; };
+		4B3FB59B2920C00600E9BE51 /* Date+DayOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DayOfWeek.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B2142A52908ABF100FD526B /* FirebaseAnalytics in Frameworks */,
 				4B14A862290979250097E838 /* Then in Frameworks */,
+				4B3FB552291F966500E9BE51 /* RxSwift in Frameworks */,
+				4B3FB550291F966500E9BE51 /* RxCocoa in Frameworks */,
 				4B14A85F290978DD0097E838 /* SnapKit in Frameworks */,
+				4B3FB590291FF0C100E9BE51 /* FirebaseStorage in Frameworks */,
+				4B3FB58C291FF0C100E9BE51 /* FirebaseAnalyticsSwift in Frameworks */,
+				4B3FB58E291FF0C100E9BE51 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +98,7 @@
 		4B14A858290976EA0097E838 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4B3FB5972920BE5B00E9BE51 /* Enum */,
 				4B3FB549291F762500E9BE51 /* Component */,
 				4B3FB541291F5D7A00E9BE51 /* Extention */,
 				4B14A856290975A70097E838 /* Application */,
@@ -95,7 +110,7 @@
 		4B14A859290976FE0097E838 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				4B14A85B290977D60097E838 /* ScheduleViewController.swift */,
+				4B3FB5922920B62F00E9BE51 /* Schedule */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -155,6 +170,7 @@
 				4B3FB542291F5DA900E9BE51 /* UIColor+Colors.swift */,
 				4B3FB544291F604000E9BE51 /* UIFont+Fonts.swift */,
 				4B3FB547291F6AA100E9BE51 /* Date+TodayDate.swift */,
+				4B3FB59B2920C00600E9BE51 /* Date+DayOfWeek.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -175,6 +191,39 @@
 			path = ScheduleTableCell;
 			sourceTree = "<group>";
 		};
+		4B3FB5922920B62F00E9BE51 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				4B3FB5942920B64900E9BE51 /* Model */,
+				4B3FB5932920B63C00E9BE51 /* ViewController */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		4B3FB5932920B63C00E9BE51 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B14A85B290977D60097E838 /* ScheduleViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4B3FB5942920B64900E9BE51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B3FB5952920B6A600E9BE51 /* ScheduleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B3FB5972920BE5B00E9BE51 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				4B3FB5982920BE6F00E9BE51 /* DateEnum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,9 +241,13 @@
 			);
 			name = Wwhat;
 			packageProductDependencies = (
-				4B2142A42908ABF100FD526B /* FirebaseAnalytics */,
 				4B14A85E290978DD0097E838 /* SnapKit */,
 				4B14A861290979250097E838 /* Then */,
+				4B3FB54F291F966500E9BE51 /* RxCocoa */,
+				4B3FB551291F966500E9BE51 /* RxSwift */,
+				4B3FB58B291FF0C100E9BE51 /* FirebaseAnalyticsSwift */,
+				4B3FB58D291FF0C100E9BE51 /* FirebaseFirestoreSwift */,
+				4B3FB58F291FF0C100E9BE51 /* FirebaseStorage */,
 			);
 			productName = Wwhat;
 			productReference = 4B21428A2908A93C00FD526B /* Wwhat.app */;
@@ -225,9 +278,10 @@
 			);
 			mainGroup = 4B2142812908A93C00FD526B;
 			packageReferences = (
-				4B2142A32908ABF100FD526B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				4B14A85D290978DD0097E838 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				4B14A860290979250097E838 /* XCRemoteSwiftPackageReference "Then" */,
+				4B3FB54E291F966500E9BE51 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				4B3FB58A291FF0C100E9BE51 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 4B21428B2908A93C00FD526B /* Products */;
 			projectDirPath = "";
@@ -266,6 +320,9 @@
 				4B3FB54C291F766F00E9BE51 /* ScheduleTableViewCell.swift in Sources */,
 				4B3FB543291F5DA900E9BE51 /* UIColor+Colors.swift in Sources */,
 				4B2142902908A93C00FD526B /* SceneDelegate.swift in Sources */,
+				4B3FB5992920BE6F00E9BE51 /* DateEnum.swift in Sources */,
+				4B3FB59C2920C00600E9BE51 /* Date+DayOfWeek.swift in Sources */,
+				4B3FB5962920B6A600E9BE51 /* ScheduleModel.swift in Sources */,
 				4B3FB545291F604000E9BE51 /* UIFont+Fonts.swift in Sources */,
 				4B14A85C290977D60097E838 /* ScheduleViewController.swift in Sources */,
 				4B3FB548291F6AA100E9BE51 /* Date+TodayDate.swift in Sources */,
@@ -496,12 +553,20 @@
 				kind = branch;
 			};
 		};
-		4B2142A32908ABF100FD526B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		4B3FB54E291F966500E9BE51 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		4B3FB58A291FF0C100E9BE51 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -517,10 +582,30 @@
 			package = 4B14A860290979250097E838 /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
 		};
-		4B2142A42908ABF100FD526B /* FirebaseAnalytics */ = {
+		4B3FB54F291F966500E9BE51 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4B2142A32908ABF100FD526B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
+			package = 4B3FB54E291F966500E9BE51 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		4B3FB551291F966500E9BE51 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B3FB54E291F966500E9BE51 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		4B3FB58B291FF0C100E9BE51 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B3FB58A291FF0C100E9BE51 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		4B3FB58D291FF0C100E9BE51 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B3FB58A291FF0C100E9BE51 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		4B3FB58F291FF0C100E9BE51 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B3FB58A291FF0C100E9BE51 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
